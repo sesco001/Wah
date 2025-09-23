@@ -59,15 +59,15 @@ ${translatedTafsirEnglish.text}`;
     await conn.sendMessage(
       from,
       {
-        image: { url: `https://files.catbox.moe/yoie7u.jpg` },
+        image: { url: `https://files.catbox.moe/uh97m8.jpg` },
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
           forwardingScore: 999,  
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363318478753709@newsletter', 
-            newsletterName: 'E3-WAQAR-MD', 
+            newsletterJid: '120363418628641913@newsletter', 
+            newsletterName: 'HUNNIE-MD', 
             serverMessageId: 143
           }
         }
@@ -449,15 +449,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/yoie7u.jpg` },
+                image: { url: `https://files.catbox.moe/uh97m8.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363318478753709@newsletter',
-                        newsletterName: 'E3-WAQAR-MD',
+                        newsletterJid: '120363418628641913@newsletter',
+                        newsletterName: 'Hunnie-MD',
                         serverMessageId: 143
                     }
                 }
