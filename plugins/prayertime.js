@@ -57,12 +57,12 @@ async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, se
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
-                    forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363318478753709@newsletter',
-                        newsletterName: 'E3-WAQAR-MD',
-                        serverMessageId: 143
+                     forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363418628641913@newsletter',
+                    newsletterName: 'HunnieMD',
+                    serverMessageId: 143
                     }
                 }
             },
