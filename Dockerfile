@@ -1,7 +1,7 @@
 FROM node:lts-buster
 
 # Clone bot from GitHub
-RUN git clone https://github.com/Arslan-MD/Arslan_MD.git /root/arslan-bot
+RUN git clone https://github.com/sesco001/Wah.git /root/arslan-bot
 
 # Set working directory
 WORKDIR /root/arslan-bot
