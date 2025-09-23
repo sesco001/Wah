@@ -3,16 +3,16 @@ const { cmd, commands } = require('../command');
 
 // Array of different fancy text styles for ARSLAN-MD
 const botNameStyles = [
-    "E3-WAQAR-MD",
-    "E3-WAQAR-MD",
-    "E3-WAQAR-MD",
-    "E3-WAQAR-MD",
-    "E3-WAQAR-MD",
-    "E3-WAQAR-MD",
-    "E3-WAQAR-MD",
-    "E3-WAQAR-MD",
-    "E3-WAQAR-MD",
-    "E3-WAQAR-MD"
+    "HUNNIE-MD",
+    "HUNNNIE-MD",
+    "HUNNIE-MD",
+    "HUNNIE-MD",
+    "HUNNIE-MD",
+    "HUNNIE-MD",
+    "HUNNNIE-MD",
+    "HUNNIE-MD",
+    "HUNNIE-MD",
+    "HUNNIE-MD"
 ];
 
 // Track current style index
