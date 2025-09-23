@@ -47,7 +47,7 @@ cmd({
     let translatedTafsirEnglish = await translate(json.data.tafsir.id, { to: 'en', autoCorrect: true });
 
     let quranSurah = `
-🕋 *Quran: The Holy Book ♥️🌹قرآن مجید🌹♥️*\n
+🕋 *Quran: The Holy Book ♥️🌹🌹♥️*\n
 📖 *Surah ${json.data.number}: ${json.data.asma.ar.long} (${json.data.asma.en.long})*\n
 💫Type: ${json.data.type.en}\n
 ✅Number of verses: ${json.data.ayahCount}\n
