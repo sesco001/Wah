@@ -40,8 +40,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318478753709@newsletter',
-                    newsletterName: 'E3-WAQAR-MD',
+                    newsletterJid: '120363418628641913@newsletter',
+                    newsletterName: 'HunnieMD',
                     serverMessageId: 143
                 }
             }
@@ -58,8 +58,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318478753709@newsletter',
-                    newsletterName: 'E3-WAQAR-MD',
+                    newsletterJid: '120363418628641913@newsletter',
+                    newsletterName: 'HunnieMD',
                     serverMessageId: 143
                 }
             }
