@@ -283,12 +283,12 @@ cmd({
 
         const contextInfo = {
             mentionedJid: [m.sender],
-            forwardingScore: 999,
-            isForwarded: true,
-            forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363318478753709@newsletter',
-                newsletterName: config.OWNER_NAME,
-                serverMessageId: 143
+             forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363418628641913@newsletter',
+                    newsletterName: 'HunnieMD',
+                    serverMessageId: 143
             }
         };
 
@@ -298,7 +298,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yoie7u.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || '' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
