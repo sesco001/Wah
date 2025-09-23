@@ -39,19 +39,19 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-Powered By *𝓐𝓻𝓼𝓵𝓪𝓷_𝓜𝓓* 💜`;
+Powered By *Hunnie_𝓜𝓓* 💜`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/r2ncqh` },  // Image URL
+            image: { url: `` },  // Image URL
             caption: formattedCode,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: '𝓐𝓻𝓼𝓵𝓪𝓷_𝓜𝓓',
+                    newsletterJid: '120363418628641913@newsletter',
+                    newsletterName: 'HUNNNIE_𝓜𝓓',
                     serverMessageId: 143
                 }
             }
