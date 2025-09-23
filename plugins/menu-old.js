@@ -53,11 +53,11 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363318478753709@newsletter',
-                        newsletterName: 'E3-WAQAR-MD',
-                        serverMessageId: 143
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363418628641913@newsletter',
+                    newsletterName: 'HunnieMD',
+                    serverMessageId: 143
                     }
                 }
             },
@@ -132,13 +132,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
-                    forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363318478753709@newsletter',
-                        newsletterName: "E3-WAQAR-MD",
-                        serverMessageId: 143
-                    }
+                   forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363418628641913@newsletter',
+                    newsletterName: 'HunnieMD',
+                    serverMessageId: 143
                 }
             },
             { quoted: mek }
@@ -199,12 +198,11 @@ async (conn, mek, m, { from, quoted, reply }) => {
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363318478753709@newsletter',
-                        newsletterName: 'E3-WAQAR-MD',
-                        serverMessageId: 144
-                    }
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363418628641913@newsletter',
+                    newsletterName: 'HunnieMD',
+                    serverMessageId: 143
                 }
             },
             { quoted: mek }
@@ -281,12 +279,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
-                    forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363318478753709@newsletter',
-                        newsletterName: 'E3-WAQAR-MD',
-                        serverMessageId: 143
+                 forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363418628641913@newsletter',
+                    newsletterName: 'HunnieMD',
+                    serverMessageId: 143
                     }
                 }
             },
